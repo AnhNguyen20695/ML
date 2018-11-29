@@ -1,0 +1,11 @@
+Guideline:
+
+Note:
+	-input images can only display boxes with numbers or "-" character.
+	-test images were taken from "/sample/cut_boxes/" and "sample/examples/" folder.
+
+1. Navigate to the current "ML" folder, install the necessary packages by typing the following command in your terminal:
+	$ pip install -r requirements.txt
+2. In "test.py" file, change the "img_path" variable to the path of the input image
+3. The cut boxes and their predicted number will be located in the folder /sample/Doc00xx_new/
+4. In terminal, in "ML" folder, run "python test.py"
